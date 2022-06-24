@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chakra+Petch:wght@500&family=Lobster&family=Orelega+One&family=Pacifico&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Roboto+Condensed:ital@1&family=Roboto+Mono:wght@200&family=Roboto:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+
+
+
+body {
+    font-size: 15pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+hedar{
+  width: 100%;
+  height: 650px;
+  animation: vk 29s linear infinite; 
+  transition: 0.8s;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  border-bottom: 1px soligd  black; 
+
+}
+
+.sarch_box  {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  height: 550px;
+}
+.sarch_box div p{
+   border: solitd;
+   color: white;
+   font-family: 'Chakra Petch';
+   font-weight: 900;
+   font-size: 25px;
+   letter-spacing: 1px;
+}
+/*
+.sarch_box div {
+  text-align: center;
+  
+  justify-content: center;
+  align-items: center;
+  
+}*/
+.sarch_box div input{
+  background-color: transparent;
+  border: none;outline: none;
+  color: white;
+  border: soltid;
+  width: 250px;
+  /*padding: 10px;
+  border-radius: 50px;
+  color: red;
+  width: 280px;
+  height: 15px;
+  outline: none;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.3);*/
+}
+
+.input_box{
+  border: 2px solid white;
+  padding: 8px 10px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(1px);
+  color: white;
+  width: 280px;
+  margin-left: 15px ;
+}
+
+
+.bl{
+  width: 100%;
+  height: 650px;
+  transition: 0.8s;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(#26273499,transparent, transparent,transparent,transparent,
+ transparent ,transparent,#95969C8C);
+ 
+}
+
+
+
+nav{
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  background: white;
+  
+  }
+  
+ #ho{
+    display: none;
+    
+  }
+  
+  nav log{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', cursive;
+  letter-spacing: 1px;
+  font-size: 25px;
+  
+}
+
+nav log i{
+  color: #87cefa;
+  
+text-shadow: 1px 1px black;
+
+}
+
+
+nav log img {
+  width: 42px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 5px;
+  
+}
+
+
+nav ul {
+  font-weight: 400;
+  display: flex;
+  list-style-type: none;
+  font-size: 17px;
+  font-family: 'Chakra Petch';
+  position: relative;
+  top: 4px;
+}
+/*
+
+
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Orelega One', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+*/
+nav ul li {
+  margin: 0px 6px;
+  padding: 1px 8px;
+  letter-spacing: 1pt;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:hover {
+  background-color: redy;
+  color: #87cefa;
+  font-weight: 1000;
+
+}
+
+nav ul li:first-child {
+  color: #87cefa;
+  font-weight: 1000;
+  
+}
+
+
+
+
+
+.move_car_box {
+  height: auto;
+  
+  position: relative;
+  top: 650px;
+  background-color: #fafafa;
+  border: solidh tan;
+ /* border-top: 1px solid white ;
+  border-bottom: 1px solid white;*/
+}
+
+
+
+
+
+.all_move_box{
+  padding: 0px;
+  background-color: white;
+  position: relative;
+  top: -0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3) ;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3) ;
+}
+
+.all_move_box h2{
+  padding: 0px 40px;
+  border: solidu;
+  font-size: 20px;
+}
+  
+ .move_car_box .all_move_box h2 b {
+   font-size: 22px;
+  color: #87cefa; 
+ }
+ 
+.all_move_box select{
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 3px; 
+  padding: 0px ;
+  outline: none;
+  position: relative;
+  right: 20px;
+  transition: 0.5s;
+  z-index: 10000;
+  
+}
+
+
+ .muvi_car_men_box{
+  border: 4px solidy red;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
+
+ #blue_{
+   color: #87cefa;
+ }
+
+
+.muvi_car {
+  width: 170px;
+  height: 250px;
+  border-top-right-radius: 1px;
+  border-top-left-radius: 1px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: white;
+  margin: 20px 25px;
+  border: 1px solid ;
+  padding: 0px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
+  /*
+  box-shadow: 0 5px 10px 3px 
+  */
+}
+  
+ .muvi_car:hover{
+ box-shadow: 0px 0px 10px 0px #87cefa ;
+  }
+
+ .muvi_car img{
+   width: 170px;
+   height: 190px;
+   margin: 0px;
+  
+  
+  
+
+ }
+ 
+ 
+ .muvi_car_text{
+   font-size: 10px;
+   padding: 10px;
+   position: relative;
+ }
+ 
+  .muvi_car_text a{
+    border: solidy tan;
+    width: 115px;
+    text-decoration: none;
+    overflow: auto; 
+    color: black;
+  }
+  
+ .muvi_car_text div{
+   display: flex;
+   justify-content: space-between;
+   margin: 7px 0px;
+   position: relative;
+   top: -10px;
+   font-family: sans-serif;
+   font-weight: 700;
+ }
+ 
+ 
+ 
+ .last_box_about{
+   border: 2px solidy red;
+   background-color: #69cfff ;
+   width: 100vw;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   backdrop-filter: blur(4px);
+   border-top: 1px solid black ;
+   text-align: center;
+   font-family: 'Chakra Petch';
+   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);color: white;
+ }
+ 
+.last_box_about a {
+  text-decoration: none;
+  
+}
+
+.last_box_about a i{
+  font-size: 25px;
+  margin: 15px;
+  color: white;
+  
+}
+
+
+
+
+@keyframes vk{
+  0%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF9FuYlbSTIWiYP6g23YrVPiBn6oUmX_x_hQ&usqp=CAU");
+    background-size: cover;
+  }
+  
+ 10%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF9FuYlbSTIWiYP6g23YrVPiBn6oUmX_x_hQ&usqp=CAU");
+    background-size: cover;
+  }
+  
+  20%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzq_Z9k-ap0l1BLq-wrCyvD80xR26nPDPgOg&usqp=CAU");
+    background-size: cover;
+  }
+  
+  30%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzq_Z9k-ap0l1BLq-wrCyvD80xR26nPDPgOg&usqp=CAU");
+    background-size: cover;
+  }
+  
+  40%{
+    background: url("https://wallpaperbat.com/img/626250-free-download-doraemon-3d-wallpaper-2015-1920x1200-for-your-desktop-mobile-tablet-explore-doraemon-wallpaper-doraemon-wallpaper-for-iphone-doraemon-wallpaper-screensaver-doraemon-wallpaper-hp.jpg");
+    background-size: cover;
+  }
+  
+  50%{
+    background: url("https://wallpaperbat.com/img/626250-free-download-doraemon-3d-wallpaper-2015-1920x1200-for-your-desktop-mobile-tablet-explore-doraemon-wallpaper-doraemon-wallpaper-for-iphone-doraemon-wallpaper-screensaver-doraemon-wallpaper-hp.jpg");
+    background-size: cover;
+  }
+  
+  60%{
+    background: url("https://wallpapercave.com/wp/wp2726565.jpg");
+    background-size: cover;
+  }
+   
+  70%{
+    background: url("https://wallpapercave.com/wp/wp2726565.jpg");
+    background-size: cover;
+  }
+ 
+  80%{
+    background: url("https://jfdb.jp/data/photo/movie/76/7a/61/71/3b317a6429affbf9afb03c131003a850_640.jpg");
+    background-size: cover;
+  }
+  
+  90%{
+    background: url("https://jfdb.jp/data/photo/movie/76/7a/61/71/3b317a6429affbf9afb03c131003a850_640.jpg");
+    background-size: cover;
+  }
+ 
+  100%{
+    background: url("https://wallpaperaccess.com/full/889159.jpg");
+    background-size: cover;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 630px) {
+  
+nav log{
+  position: relative;
+  left: -30px;
+}
+
+nav{
+  padding: 7px 0px;
+}
+
+nav ul{
+  display: inline;
+  position: fixed;
+  top: 40px;
+  right: -50vw; 
+  border: none;
+  backdrop-filter: blur(3px);
+  transition: 0.5s;
+  z-index: 4762;
+  text-align: center;
+  padding: 0px;
+  
+}
+
+nav ul li{
+  padding: 10px 20px;
+  color: white;
+  transition: 0.3s;
+  margin: 10px 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li:first-child {
+  
+  font-weight: 1000; 
+}
+
+nav ul li:first-child:hover{
+  color: white;
+  background-color: #87cefa;
+  text-shadow: 1px 1px black;
+}
+
+nav ul li:hover{
+  color: white;
+  background-color: #87cefa;
+}
+
+#ho{
+    display: block;
+    
+    
+    position: relative;
+    top: 2px;
+    font-size: 30px;
+   
+ }
+  .menu_box{z-index: 37472747;}
+.menu_box:hover ul{
+  border: 1px solid black;
+  display: block;
+  position: absolute;
+  right: 20px; 
+  border-radius: 2px; 
+  z-index: 474727;
+  box-shadow: 0px 0px 3px 0px black;
+}
+ 
+ .sarch_box{
+   position: relative;
+   top: -50px;
+ }
+ 
+ .sarch_box div p{
+   border: solifd;
+   font-size: 20px;
+   text-align: center;
+ }
+ 
+ .sarch_box div input{
+  width: 230px;
+  border: soligd;
+ }
+ 
+ .input_box {
+   width: 240px;
+ }
+  
+  hedar{
+  
+  animation: vk2 29s linear infinite; 
+  
+  }
+  
+  
+.all_move_box h2{
+  border: soligd;
+  background-color: white;
+  color: black;
+  position: relative;
+  top: -0px;
+  padding: 0px 20px;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+  
+  .muvi_car {
+    margin: 20px 10px;
+  }
+
+}
+
+
+@media (max-width: 392px) {
+  .muvi_car {
+    margin: 20px 7px;
+  }
+}
+
+
+@media (max-width: 380px) {
+  .muvi_car {
+    margin: 20px 4px;
+  }
+}
+
+
+@media (max-width: 280px) {
+   
+ .sarch_box div p{
+  
+   font-size: 13px;/*🔱*/
+   width: 80vw;
+
+ }
+ 
+ .sarch_box div input{
+  width: auto; /*🔱*/
+
+ }
+ 
+ .input_box {
+   width: 50vw; /*🔱*/
+ }
+ 
+ .input_box i{
+   display: none;
+ }
+ 
+ 
+ 
+ .move_car_box .all_move_box h2 {
+   font-size: 13px;
+  
+ }
+  
+ .move_car_box .all_move_box h2 b {
+  color: #87cefa; 
+  font-size: 15px; 
+ }
+
+ .all_move_box select{
+   font-size: 10px;
+ }
+ 
+ nav log {
+   position: relative;
+  left: -0px;
+ }
+ nav log img{
+  position: relative;
+  left: -0px;
+  margin: 0px;
+  padding: 0px;
+ }
+ 
+  hedar{
+   /* animation: vk2 20s linear infinite; 
+/* background-image: url("https://i.pinimg.com/736x/a3/55/43/a355438528dc074fddd710a3dae9559d.jpg");*/
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVKx8ate_mq6JoLKEnPnFCyi-JAVqrnlE2sQ&usqp=CAU"); 
+    background-size: cover ;
+    background-repeat: no-repeat;
+   
+    border: 2px solid green;
+  
+  }
+  
+    
+  .muvi_car_text div{
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+  
+  
+}
+
+
+
+
+
+
+@keyframes vk2{
+  0%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4AWWgePfs36XNm4jbj-dpZ_0ObNjzfxDCBA&usqp=CAU");
+    background-size: cover;
+  }
+  
+ 10%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4AWWgePfs36XNm4jbj-dpZ_0ObNjzfxDCBA&usqp=CAU");
+    background-size: cover;
+  }
+  
+  20%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLaCOqIwLryBO-9Zmtdrh-obmO4nQHBB2dnA&usqp=CAU");
+    background-size: cover;
+  }
+  
+  30%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLaCOqIwLryBO-9Zmtdrh-obmO4nQHBB2dnA&usqp=CAU");
+    background-size: cover;
+  }
+  
+  40%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpl3aiog_ezfriP2G5K4nG01rPCxEc5nvY4A&usqp=CAU");
+    background-size: cover;
+  }
+  
+  50%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpl3aiog_ezfriP2G5K4nG01rPCxEc5nvY4A&usqp=CAU");
+    background-size: cover;
+  }
+  
+  60%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgorZbG6LTJsDJ0biY9JgYzLeEO-TOiUPgMw&usqp=CAU");
+    background-size: cover;
+  }
+   
+  70%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgorZbG6LTJsDJ0biY9JgYzLeEO-TOiUPgMw&usqp=CAU");
+    background-size: cover;
+  }
+ 
+  80%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4phzad_D9N0Tz56FMlnkIo7p21b-sO0nIvQ&usqp=CAU");
+    background-size: cover;
+  }
+  
+  90%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4phzad_D9N0Tz56FMlnkIo7p21b-sO0nIvQ&usqp=CAU");
+    background-size: cover;
+  }
+ 
+  100%{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMVqny2NROpu4K4m4fOH4-OABTp0Ni32ZvTQ&usqp=CAU");
+    background-size: cover;
+  }
+}
+
+
+button{
+  padding: 7px 15px;
+  position: absolute;
+  right: 40px;
+  bottom: 250px;
+  font-size: 20px;
+  border-radius: 2px;
+  outline: none;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+button b{
+  font-size: 16px;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.button2{
+  position: absolute;
+  right: 90px;
+  bottom: 170px;
+  background-color: yellowy;
+}
+
+.button3{
+  position: absolute;
+  right: 40px;
+  bottom: 90px;
+  background-color: redt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
