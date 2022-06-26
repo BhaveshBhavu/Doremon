@@ -14,7 +14,7 @@ boxu.innerHTML += `<log>
    <ul >
    <li><a href="index.html" id="blue_">Movie</a></li> 
    <li> <a href="https://www.dailymotion.com/video/x81hqqi">Episodes</a> </li> 
-   <li> <a href="image.html">Image</a> </li> 
+   <li> <a href="img.html">Image</a> </li> 
    <li> <a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.amazon.in/Toys-Games-doraemon/s%3Frh%3Dn%253A1350380031%252Cp_lbr_characters_browse-bin%253Adoraemon&ved=2ahUKEwiFpJf6raz3AhWkklYBHc9LD-QQFnoECA4QAQ&usg=AOvVaw0RY6teMCyF3MDrB2-rtMDn">Toys</a> </li> 
    <li> <a href="video.html">videos</a> </li> 
    </ul>
